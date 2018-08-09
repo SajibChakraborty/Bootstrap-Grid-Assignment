@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Grid-1</title>
+<!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+<style>
+.left-column {
+	background-color: #e15000;
+	color: white;
+}
+
+.middle-column {
+	background-color: #E89161;
+	color: white;
+}
+
+.right-column {
+	background-color: #EDA177;
+	color: white;
+}
+
+.column {
+	line-height: 240px;
+	min-height: 200px;
+	height: 250px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    border: white 1px solid;
+}
+
+.center {
+	text-align: center;
+}
+
+.col-md-8, .col-md-6, .col-md-4, .col-md-2 {
+	padding:0px;
+}
+
+h1{color:#124e6c;
+}
+
+a:VISITED, a:HOVER, a:LINK{
+	color:#e15000; 
+}
+
+a:HOVER {
+	font-style: italic;
+	text-decoration: none;
+}
+
+</style>
+
+</head>
+<body>
+	<h1 class="center">Bootstrap Grid-1</h1>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="column center left-column">col-md-4</div>
+			</div>
+			<div class="col-md-4">
+				<div class="column center middle-column">col-md-4</div>
+			</div>
+			<div class="col-md-4">
+				<div class="column center right-column">col-md-4</div>
+			</div>
+		</div>
+				<div class="row">
+			<div class="col-md-6">
+				<div class="column center left-column">col-md-6</div>
+			</div>
+			<div class="col-md-4">
+				<div class="column center middle-column">col-md-4</div>
+			</div>
+			<div class="col-md-2">
+				<div class="column center right-column">col-md-2</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2">
+				<div class="column center left-column">col-md-2</div>
+			</div>
+			<div class="col-md-8">
+				<div class="column center middle-column">col-md-8</div>
+			</div>
+			<div class="col-md-2">
+				<div class="column center right-column">col-md-2</div>
+			</div>
+		</div>
+	</div>
+	
+
+
+</body>
+</html>
